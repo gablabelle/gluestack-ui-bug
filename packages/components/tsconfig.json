@@ -1,0 +1,9 @@
+{
+  "extends": "@travaildirect/typescript-config/react-library.json",
+  "include": ["."],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node"
+  }
+}
